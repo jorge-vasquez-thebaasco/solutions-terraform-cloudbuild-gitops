@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "jorge-vasquez-sandbox-example-tfstate"
     prefix = "env/dev"
   }
 }
